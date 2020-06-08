@@ -1,6 +1,6 @@
 #!/bin/sh
 
-tar cf tar.tar test
+tar cf t1.tar test
 tar tvf t1.tar >t1list.txt
 ./tarcopy
 tar tvf t2.tar >t2list.txt
